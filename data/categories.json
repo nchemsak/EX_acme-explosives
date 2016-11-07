@@ -1,12 +1,15 @@
 {
-  "categories": [
-    {
-      "id": 0,
-      "name": "Fireworks"
-    },
-    {
-      "id": 1,
-      "name": "Demolition"
-    }
-  ]
+  "categories": [{
+    "id": 0,
+    "name": "Fireworks"
+  }, {
+    "id": 1,
+    "name": "Demolition"
+  }, {
+    "id": 2,
+    "name": "Rocks"
+  }, {
+    "id": 3,
+    "name": "Weapons"
+  }]
 }

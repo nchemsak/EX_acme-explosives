@@ -1,7 +1,81 @@
 header {
-  // color: tomato;
-  background-color: powderblue;
+  color: #0d0c2b;
+  background-color: #db6641;
   font-size: 3em;
-  border: 3px dotted tomato;
+  // border: 3px dotted #2468b1;
   width: 100%;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+.btn {
+  background-color: #debb7b;
+  color: #0d0c2b;
+  border: 0;
+  margin: 20px 20px 0 20px;
+  width: 150px;
+  font-size: 1.2em;
+  opacity: .85;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+.btn:hover {
+  background-color: #debb7b;
+  opacity: 1.0;
+}
+
+// .btn-primary:active {
+//   background-color: #debb7b;
+//   opacity: 1.0;
+// }
+.btn:hover {
+  background-color: #debb7b;
+  opacity: 1.0;
+}
+
+.dropdown-menu {
+  margin: 0 20px 20px 20px;
+  width: 150px;
+}
+
+.btn-primary.active.focus,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary:active.focus,
+.btn-primary:active:focus,
+.btn-primary:active:hover,
+.open>.dropdown-toggle.btn-primary.focus,
+.open>.dropdown-toggle.btn-primary:focus,
+.open>.dropdown-toggle.btn-primary:hover {
+  background-color: #debb7b;
+}
+
+.dropdown-menu>li>a {
+  font-size: 1.2em;
+}
+
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover {
+  background-color: #debb7b;
+  opacity: .75;
+  color: white;
+  font-size: 1.2em;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+.btn-primary.active,
+.btn-primary:active,
+.open>.dropdown-toggle.btn-primary {
+  background-color: #debb7b;
+  opacity: 1.0;
+  color: #0d0c2b;
+}
+
+.col-sm-4 {
+  background-color: #debb7b;
+  width: 22%;
+  min-height: 200px;
+  width: 200px;
+  margin: 10px;
+  margin-top: 20px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
 }

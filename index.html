@@ -8,13 +8,27 @@
   <!-- bootstrap stylesheet -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <!-- custom stylesheet -->
-<link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
   <div id="wrapper">
     <header>ACME</header>
-    <footer></footer>
+    <div class="dropdown">
+      <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Products
+        <span class="caret"></span></button>
+      <ul class="dropdown-menu">
+        <li><a href="#">Fireworks</a></li>
+        <li><a href="#">Demolition</a></li>
+        <li><a href="#">Rocks</a></li>
+        <li><a href="#">Weapons</a></li>
+      </ul>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">ONE</div>
+      <div class="col-sm-4">TWO</div>
+      <div class="col-sm-4">THREE</div>
+    </div>
   </div>
   <!-- bootstrap script tags -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
